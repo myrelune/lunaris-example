@@ -9,3 +9,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 then, i used ninja to build.
 cmake -B build -G "Ninja" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release
 im not sure how other ides do it
+
+
+I DIDNT INCLUDE THE LUNARIS FOLDER. make sure you do it in your own project
